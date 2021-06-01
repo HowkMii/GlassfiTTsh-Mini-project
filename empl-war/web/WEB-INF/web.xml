@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Addemp</servlet-name>
+        <servlet-class>Addemp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Editemp</servlet-name>
+        <servlet-class>Editemp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Deleteemp</servlet-name>
+        <servlet-class>Deleteemp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Searchemp</servlet-name>
+        <servlet-class>Searchemp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Addemp</servlet-name>
+        <url-pattern>/Addemp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Editemp</servlet-name>
+        <url-pattern>/Editemp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Deleteemp</servlet-name>
+        <url-pattern>/Deleteemp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Searchemp</servlet-name>
+        <url-pattern>/Searchemp</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
