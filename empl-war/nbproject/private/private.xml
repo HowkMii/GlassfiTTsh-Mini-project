@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/PC/Desktop/empl/empl-war/web/searchemp.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/empl/empl-war/web/index.html</file>
+            <file>file:/C:/Users/PC/Desktop/empl/empl-war/web/editemp.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/empl/empl-war/web/deleteemp.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/empl/empl-war/web/addemp.jsp</file>
+            <file>file:/C:/Users/PC/Desktop/empl/empl-war/src/java/Searchemp.java</file>
+            <file>file:/C:/Users/PC/Desktop/empl/empl-war/src/java/Addemp.java</file>
+        </group>
     </open-files>
 </project-private>

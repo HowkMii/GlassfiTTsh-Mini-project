@@ -9,8 +9,62 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+             body{
+                 background-color: rgb(25 20 20); 
+             }
+            .parent{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 200px;
+                
+                
+                
+            }
+            
+            .list{
+                 list-style: none;
+                font-size: 28px;
+                font-weight: bold;
+                 cursor: pointer;
+                padding: 6px;
+                margin: 20px;
+            }
+            .link{
+                text-transform: uppercase;
+                text-decoration:none;
+                color: #1DB954;
+                margin-left: 25px;
+                
+            }
+           
+            .class-h2{
+                margin-top: -30px;
+                margin-bottom: 30px;
+            }
+            .unorderd-list{
+                margin-left: 10px
+            }
+        </style>
     </head>
     <body>
-        <div>TODO write content</div>
-    </body>
+        <div class="parent">
+            <div>
+               
+                <ul class="unorderd-list">
+                    <li class="list">
+                        <a class="link" href="addemp.jsp"> Insert </a>
+                        <a class="link" href="editemp.jsp"> update </a>
+                    </li>
+                   
+                    <li class="list">
+                        <a class="link" href="deleteemp.jsp"> delete </a>
+                        <a class="link" href="searchemp.jsp"> Search </a>
+                    </li>
+                    
+                   
+                </ul>
+            </div>
+        </div>
 </html>
