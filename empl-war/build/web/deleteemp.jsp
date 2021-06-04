@@ -12,6 +12,9 @@
         <title>Destroy</title>
          <style>
              legend{
+                 
+                 
+                 
                  color: #1DB954;
                   font-weight: bold;
                 font-size: 24px;
